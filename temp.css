@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+    background-color: #aeff00;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+input[type="number"],
+select,
+button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
